@@ -317,3 +317,4 @@
 /Users/juandanielluevanoruiz/Desktop/Api-User/Api/bin/Debug/net8.0/Newtonsoft.Json.dll
 /Users/juandanielluevanoruiz/Desktop/Api-User/Api/bin/Debug/net8.0/Newtonsoft.Json.Bson.dll
 /Users/juandanielluevanoruiz/Desktop/Api-User/Api/bin/Debug/net8.0/System.Security.Permissions.dll
+/Users/juandanielluevanoruiz/Desktop/Api-User/Api/obj/Debug/net8.0/User-Api.sourcelink.json

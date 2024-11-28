@@ -16,6 +16,8 @@ namespace Api.Data
 
         public DbSet<Email> Emails { get; set; }
 
+        public DbSet<Hackthebox> Hacktheboxes { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlite("Data Source=main.db");

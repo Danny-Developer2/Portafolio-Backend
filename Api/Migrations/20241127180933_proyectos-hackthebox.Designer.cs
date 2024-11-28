@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace User_Api.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241127033739_proyectos-date")]
-    partial class proyectosdate
+    [Migration("20241127180933_proyectos-hackthebox")]
+    partial class proyectoshackthebox
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -52,6 +52,37 @@ namespace User_Api.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Emails");
+                });
+
+            modelBuilder.Entity("Api.Models.Hackthebox", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("description")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("img")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("linkCertificado")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("title")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Hacktheboxes");
                 });
 
             modelBuilder.Entity("Api.Models.Proyecto", b =>

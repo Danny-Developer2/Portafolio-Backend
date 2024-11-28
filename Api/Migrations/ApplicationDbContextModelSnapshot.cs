@@ -51,6 +51,37 @@ namespace User_Api.Migrations
                     b.ToTable("Emails");
                 });
 
+            modelBuilder.Entity("Api.Models.Hackthebox", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("description")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("img")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("linkCertificado")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("title")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Hacktheboxes");
+                });
+
             modelBuilder.Entity("Api.Models.Proyecto", b =>
                 {
                     b.Property<int>("Id")

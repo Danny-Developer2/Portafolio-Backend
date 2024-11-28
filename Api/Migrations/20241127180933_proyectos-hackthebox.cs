@@ -5,7 +5,7 @@
 namespace User_Api.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class proyectoshackthebox : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -29,6 +29,23 @@ namespace User_Api.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Hacktheboxes",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    Nombre = table.Column<string>(type: "TEXT", nullable: false),
+                    title = table.Column<string>(type: "TEXT", nullable: false),
+                    description = table.Column<string>(type: "TEXT", nullable: false),
+                    img = table.Column<string>(type: "TEXT", nullable: false),
+                    linkCertificado = table.Column<string>(type: "TEXT", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Hacktheboxes", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Proyectos",
                 columns: table => new
                 {
@@ -36,9 +53,9 @@ namespace User_Api.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     Name = table.Column<string>(type: "TEXT", nullable: false),
                     Description = table.Column<string>(type: "TEXT", nullable: false),
-                    RepositorioGithub = table.Column<string>(type: "TEXT", nullable: false),
-                    imageRepositorio = table.Column<string>(type: "TEXT", nullable: false),
-                    FechaCreacion = table.Column<string>(type: "TEXT", nullable: false)
+                    startDate = table.Column<string>(type: "TEXT", nullable: false),
+                    repository = table.Column<string>(type: "TEXT", nullable: false),
+                    img = table.Column<string>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -65,6 +82,9 @@ namespace User_Api.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Emails");
+
+            migrationBuilder.DropTable(
+                name: "Hacktheboxes");
 
             migrationBuilder.DropTable(
                 name: "Proyectos");
