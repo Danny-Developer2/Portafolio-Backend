@@ -1,6 +1,11 @@
 /Users/juandanielluevanoruiz/Desktop/Api-User/Api/out/User-Api
+/Users/juandanielluevanoruiz/Desktop/Api-User/Api/out/out/web.config
 /Users/juandanielluevanoruiz/Desktop/Api-User/Api/out/appsettings.Development.json
 /Users/juandanielluevanoruiz/Desktop/Api-User/Api/out/appsettings.json
+/Users/juandanielluevanoruiz/Desktop/Api-User/Api/out/out/appsettings.Development.json
+/Users/juandanielluevanoruiz/Desktop/Api-User/Api/out/out/appsettings.json
+/Users/juandanielluevanoruiz/Desktop/Api-User/Api/out/out/User-Api.deps.json
+/Users/juandanielluevanoruiz/Desktop/Api-User/Api/out/out/User-Api.runtimeconfig.json
 /Users/juandanielluevanoruiz/Desktop/Api-User/Api/out/User-Api.dll
 /Users/juandanielluevanoruiz/Desktop/Api-User/Api/out/User-Api.runtimeconfig.json
 /Users/juandanielluevanoruiz/Desktop/Api-User/Api/out/User-Api.pdb
