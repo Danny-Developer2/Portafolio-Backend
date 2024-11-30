@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/juandanielluevanoruiz/Desktop/Api-User/Api/User-Api.csproj": {}
+    "/Users/juandanielluevanoruiz/Proyectos/Api-User/Api/User-Api.csproj": {}
   },
   "projects": {
-    "/Users/juandanielluevanoruiz/Desktop/Api-User/Api/User-Api.csproj": {
+    "/Users/juandanielluevanoruiz/Proyectos/Api-User/Api/User-Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/juandanielluevanoruiz/Desktop/Api-User/Api/User-Api.csproj",
+        "projectUniqueName": "/Users/juandanielluevanoruiz/Proyectos/Api-User/Api/User-Api.csproj",
         "projectName": "User-Api",
-        "projectPath": "/Users/juandanielluevanoruiz/Desktop/Api-User/Api/User-Api.csproj",
+        "projectPath": "/Users/juandanielluevanoruiz/Proyectos/Api-User/Api/User-Api.csproj",
         "packagesPath": "/Users/juandanielluevanoruiz/.nuget/packages/",
-        "outputPath": "/Users/juandanielluevanoruiz/Desktop/Api-User/Api/obj/",
+        "outputPath": "/Users/juandanielluevanoruiz/Proyectos/Api-User/Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/juandanielluevanoruiz/.nuget/NuGet/NuGet.Config"

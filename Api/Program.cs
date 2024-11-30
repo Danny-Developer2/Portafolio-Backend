@@ -17,7 +17,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => {
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowLocalhost",
-        builder => builder.WithOrigins("http://localhost:4200")
+        builder => builder.WithOrigins("http://localhost:4200","http://localhost:3000","http://192.168.100.11:3000","https://ldevs-react-production.up.railway.app")
                           .AllowAnyMethod()
                           .AllowAnyHeader());
 });

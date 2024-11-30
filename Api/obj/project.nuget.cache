@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LVT3eOVMktQ=",
+  "dgSpecHash": "2aaTuHzxa0I=",
   "success": true,
-  "projectFilePath": "/Users/juandanielluevanoruiz/Desktop/Api-User/Api/User-Api.csproj",
+  "projectFilePath": "/Users/juandanielluevanoruiz/Proyectos/Api-User/Api/User-Api.csproj",
   "expectedPackageFiles": [
     "/Users/juandanielluevanoruiz/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/juandanielluevanoruiz/.nuget/packages/microsoft.aspnetcore.antiforgery/2.2.0/microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
@@ -195,5 +195,12 @@
     "/Users/juandanielluevanoruiz/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/Users/juandanielluevanoruiz/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error al obtener los datos de vulnerabilidad del paquete: Access to the path '/Users/juandanielluevanoruiz/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/vuln_index.dat-new' is denied."
+    }
+  ]
 }

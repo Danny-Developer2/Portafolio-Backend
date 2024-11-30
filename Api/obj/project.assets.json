@@ -10402,11 +10402,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/juandanielluevanoruiz/Desktop/Api-User/Api/User-Api.csproj",
+      "projectUniqueName": "/Users/juandanielluevanoruiz/Proyectos/Api-User/Api/User-Api.csproj",
       "projectName": "User-Api",
-      "projectPath": "/Users/juandanielluevanoruiz/Desktop/Api-User/Api/User-Api.csproj",
+      "projectPath": "/Users/juandanielluevanoruiz/Proyectos/Api-User/Api/User-Api.csproj",
       "packagesPath": "/Users/juandanielluevanoruiz/.nuget/packages/",
-      "outputPath": "/Users/juandanielluevanoruiz/Desktop/Api-User/Api/obj/",
+      "outputPath": "/Users/juandanielluevanoruiz/Proyectos/Api-User/Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/juandanielluevanoruiz/.nuget/NuGet/NuGet.Config"
@@ -10491,5 +10491,13 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error al obtener los datos de vulnerabilidad del paquete: Access to the path '/Users/juandanielluevanoruiz/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/vuln_index.dat-new' is denied."
+    }
+  ]
 }
